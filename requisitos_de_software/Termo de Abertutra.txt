@@ -35,9 +35,14 @@ h3. JUSTIFICATIVAS DO PROJETO
 
 h3. PREMISSAS E RESTRIÇÕES
 
-h4.Premissas
+h4. Premissas
 
-•	Lista de premissas
+Para o sucesso deste projeto, torna-se imprescindível os seguintes pontos:
+
+•	Disponibilidade de tempo para reuniões de análise de requisitos.
+•	Disponibilidade de um servidor de homologação.
+•	Disponibilidade de dispositivo móvel com sistema operacional Android.
+•	Disponibilidade dos usuários internos e externos para efetuar testes e dar feedback dos programas para a equipe de desenvolvimento.
 
 h4. Restrições
 
