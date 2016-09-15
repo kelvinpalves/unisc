@@ -1,0 +1,71 @@
+h1. Termo de Abertura
+
+h3. IDENTIFICAÇÃO DO PROJETO
+
+Nome do Projeto: Rastreabilidade de Produtos Agrícolas
+
+h3. EQUIPE DO PROJETO
+
+Nome do aluno responsável: Kelvin Pereira Alves
+Integrantes: Roberto V. Mees
+
+
+h3. PARTES INTERESSADAS (STAKEHOLDERS)
+
+| Nome | Função | Email |
+|Márcio Castro|Supervisor de Recebimento de Produtos|mcastro@mercado.com.br|
+|Fernando da Silva|Gerente de Loja|fsilva@mercado.com.br|
+|José Franco|Encarregado da Fruteira|jfranco@mercado.com.br|
+	
+h3. ESCOPO DO PROJETO
+
+<descreva o contexto do sistema, os principais objetivos, premissas e restrições do sistema e os principais recursos envolvidos>	
+
+h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
+
+<Insira aqui as exclusões específicas do escopo, ou seja, tudo que efetiva e definitivamente não faz parte do escopo do projeto> 
+
+h3. OBJETIVOS DO PROJETO
+
+<Insira quais são os objetivos do cliente com este projeto. Ex: Melhorar produtividade, aumentar confiabilidade, melhoria de algum processo, etc...> 
+
+h3. JUSTIFICATIVAS DO PROJETO
+
+<Insira as justificativas do cliente para condução deste projeto (por quê e/ou motivos)> 
+
+h3. PREMISSAS E RESTRIÇÕES
+
+h4.Premissas
+
+•	Lista de premissas
+
+h4. Restrições
+
+•	Lista de restrições atribuídas pelo contexto
+
+h3. FATORES CRÍTICOS DE SUCESSO DO PROJETO
+
+•	Requisitos funcionais e não-funcionais importantes para a avaliação final do projeto
+
+
+h3. PRAZO DO PROJETO
+
+O prazo estimado para este projeto, para o atendimento do escopo descrito nesta declaração, é de _____ dias.
+
+Data Prevista para Início: 11/12/2008
+
+Data Prevista para Término: 27/02/2009
+
+Plano de Entregas e Marcos do Projeto
+
+Entrega/Marco	Descrição	Data
+Marco 1	Descrição do marco 1	22/12/2008
+Marco 2	Descrição do marco 2	05/01/2009
+
+
+O detalhamento dos prazos para as fases, pacotes de trabalho, atividades e tarefas do projeto encontra-se no cronograma do projeto.
+
+
+h3. APROVAÇÃO
+
+Declaramos ter lido este documento e estar de acordo com seus termos, condições e conteúdo, aprovando-o em sua totalidade mediante assinatura abaixo.
