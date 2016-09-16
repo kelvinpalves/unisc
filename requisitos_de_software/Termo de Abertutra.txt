@@ -31,7 +31,7 @@ O principal objetivo deste projeto é o desenvolvimento de um novo software, cap
 
 h3. JUSTIFICATIVAS DO PROJETO
 
-<Insira as justificativas do cliente para condução deste projeto (por quê e/ou motivos)> 
+Este projeto foi iniciado devido ao excesso de perdas que vem ocorrendo de maneira recorrente no setor de hortifrúti.
 
 h3. PREMISSAS E RESTRIÇÕES
 
