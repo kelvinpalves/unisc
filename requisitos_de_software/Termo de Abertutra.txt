@@ -27,7 +27,7 @@ h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
 h3. OBJETIVOS DO PROJETO
 
-<Insira quais são os objetivos do cliente com este projeto. Ex: Melhorar produtividade, aumentar confiabilidade, melhoria de algum processo, etc...> 
+O principal objetivo deste projeto é o desenvolvimento de um novo software, capaz de gerar relatórios que otimizem o processo de compras e reduza as perdas de produtos agrícolas.
 
 h3. JUSTIFICATIVAS DO PROJETO
 
