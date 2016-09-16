@@ -23,7 +23,10 @@ h3. ESCOPO DO PROJETO
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
-<Insira aqui as exclusões específicas do escopo, ou seja, tudo que efetiva e definitivamente não faz parte do escopo do projeto> 
+Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendidos nesta proposta, podem-se citar os seguintes:
+
+•	Integração ou sincronização com sistema de ponto de venda utilizado.
+•	Integração ou sincronização com sistema de órgãos públicos.
 
 h3. OBJETIVOS DO PROJETO
 
