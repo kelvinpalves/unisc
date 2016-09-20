@@ -79,21 +79,20 @@ h3. FATORES CRÍTICOS DE SUCESSO DO PROJETO
 
 h3. PRAZO DO PROJETO
 
-O prazo estimado para este projeto, para o atendimento do escopo descrito nesta declaração, é de 40 dias.
+O prazo estimado para este projeto, para o atendimento do escopo descrito nesta declaração, é de 90 dias.
 
-Data Prevista para Início: 19/10/2016
+Data Prevista para Início: 01/10/2016
 
-Data Prevista para Término: 17/11/2016
+Data Prevista para Término: 08/02/2017
 
 Plano de Entregas e Marcos do Projeto
 
 Entrega/Marco	Descrição	Data
-Marco 1	Descrição do marco 1	22/12/2008
-Marco 2	Descrição do marco 2	05/01/2009
-
+Marco 1	Entrega de sistema Web para homologação		05/01/2017
+Marco 2	Entrega de aplicativo para homologação		01/02/2017
+Marco 3	Finalização do Projeto 						08/02/2017
 
 O detalhamento dos prazos para as fases, pacotes de trabalho, atividades e tarefas do projeto encontra-se no cronograma do projeto.
-
 
 h3. APROVAÇÃO
 
