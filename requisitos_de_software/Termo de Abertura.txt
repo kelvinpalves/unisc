@@ -19,7 +19,27 @@ h3. PARTES INTERESSADAS (STAKEHOLDERS)
 	
 h3. ESCOPO DO PROJETO
 
-<descreva o contexto do sistema, os principais objetivos, premissas e restrições do sistema e os principais recursos envolvidos>	
+Este projeto visa o desenvolvimento de um sistema para o controle de defensivos utilizados em produtos agrícolas, visando a redução de perdas e a otimização das compras.
+
+Para a utilização do sistema será necessário efetuar uma carga de dados, esta carga terá informações dos clientes, produtos e defensivos, estes registros serão utilizados posteriormente para efetuar a criação de lotes.
+
+O sistema terá a possibilidade de efetuar os cadastros de forma manual, ou seja, caso um cliente, defensivo ou produto não esteja registrado no sistema, o mesmo poderá ser adicionado via formulário.
+
+O sistema deve ser apto a efetuar a criação de lotes, estes lotes serão criados no recebimento da carga.
+
+Ao criar um lote, o mesmo pode conter n produtos, não necessáriamente do mesmo produtor.
+
+Ao finalizar a criação de um lote, deverá ser gerado um QR Code que posteriormente será utilizado para efetuar a rastreabilidade dos produtos através do aplicativo de leitura.
+
+O Sistema deverá imprimir etiquetas com o QR Code, deverá ser gerado de acordo com o número de produtos, pois cada produto terá sua etiqueta.
+
+O aplicativo de rastreabilidade deverá ter a opção de leitura do QR Code, ao efetuar a leitura será efetuada uma transação de busca no sistema de retaguarda, que vai retornar todos os produtos contidos no lote.
+
+Este software será desenvolvido em camadas, no Frontend será utilizado AngularJS com tema AdminLTE 2, o front vai se comunicar através de Web Services RestFul com o Backend. 
+
+A camada de Backend será desenvolvida utilizando PHP e se comunicando com banco de dados PostgreSQL.
+
+O aplicativo será desenvolvido utilizando Ionic e o banco de dados SQlite. O aplicativo vai se comunicar através de Web Services com o sistema de retaguarda.
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
