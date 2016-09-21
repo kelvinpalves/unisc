@@ -50,7 +50,7 @@ Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendi
 
 h3. OBJETIVOS DO PROJETO
 
-O principal objetivo deste projeto é o desenvolvimento de um novo software, capaz de gerar relatórios que otimizem o processo de compras e reduza as perdas de produtos agrícolas.
+O principal objetivo deste projeto é o desenvolvimento de um novo software capaz de gerar relatórios que otimizem o processo de compras e reduza as perdas de produtos agrícolas.
 
 h3. JUSTIFICATIVAS DO PROJETO
 
@@ -74,8 +74,16 @@ h4. Restrições
 
 h3. FATORES CRÍTICOS DE SUCESSO DO PROJETO
 
-•	Requisitos funcionais e não-funcionais importantes para a avaliação final do projeto
+Estes itens de riscos devem ser gerenciados durante o projeto: 
 
+•	Substituição de funcionários de referência do cliente
+•	Disponibilidade de funcionários do cliente conforme cronograma
+•	Fornecimento de recursos externos
+•	Alterações na organização do cliente
+•	Inadimplência do cliente
+•	Alterações na legislação do negócio
+•	Carência de recursos computacionais: internet, servidor, conexão remota
+•	Problemas de alocação de recursos humanos 
 
 h3. PRAZO DO PROJETO
 
