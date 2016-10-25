@@ -2,7 +2,7 @@ h1. Termo de Abertura
 
 h3. IDENTIFICAÇÃO DO PROJETO
 
-Nome do Projeto: Rastreabilidade de Produtos Agrícolas
+Nome do Projeto: Impressão Online
 
 h3. EQUIPE DO PROJETO
 
@@ -13,15 +13,18 @@ Integrantes: Roberto V. Mees
 h3. PARTES INTERESSADAS (STAKEHOLDERS)
 
 | Nome | Função | Email |
-|Márcio Castro|Supervisor de Recebimento de Produtos|mcastro@mercado.com.br|
-|Fernando da Silva|Gerente de Loja|fsilva@mercado.com.br|
-|José Franco|Encarregado da Fruteira|jfranco@mercado.com.br|
+| Sasha Antunes| Gerente | sasha@gmail.com |
+| Vitinho da Silva | Auxiliar de Impressão | vsilva@gmail.com |
 	
 h3. ESCOPO DO PROJETO
 
 Este projeto visa o desenvolvimento de um sistema para o controle de defensivos utilizados em produtos agrícolas, visando a redução de perdas e a otimização das compras.
 
-Para a utilização do sistema será necessário efetuar uma carga de dados, esta carga terá informações dos clientes, produtos e defensivos, estes registros serão utilizados posteriormente para efetuar a criação de lotes.
+Para a utilização do sistema será necessário efetuar uma carga de dados. 
+
+A carga de dados terá informações dos clientes, produtos e defensivos. 
+
+Os registros inseridos a partir da carga de dados serão utilizados posteriormente para efetuar a criação de lotes.
 
 O sistema terá a possibilidade de efetuar os cadastros de forma manual, ou seja, caso um cliente, defensivo ou produto não esteja registrado no sistema, o mesmo poderá ser adicionado via formulário.
 
@@ -31,7 +34,7 @@ Ao criar um lote, o mesmo pode conter n produtos, não necessáriamente do mesmo
 
 Ao finalizar a criação de um lote, deverá ser gerado um QR Code que posteriormente será utilizado para efetuar a rastreabilidade dos produtos através do aplicativo de leitura.
 
-O Sistema deverá imprimir etiquetas com o QR Code, deverá ser gerado de acordo com o número de produtos, pois cada produto terá sua etiqueta.
+O Sistema deverá imprimir etiquetas com o QR Code. O número de etiquetas que deverá ser gerado, será de acordo com o número de produtos, pois cada produto terá sua etiqueta.
 
 O aplicativo de rastreabilidade deverá ter a opção de leitura do QR Code, ao efetuar a leitura será efetuada uma transação de busca no sistema de retaguarda, que vai retornar todos os produtos contidos no lote.
 
