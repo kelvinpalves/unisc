@@ -13,36 +13,29 @@ Integrantes: Roberto V. Mees
 h3. PARTES INTERESSADAS (STAKEHOLDERS)
 
 | Nome | Função | Email |
-| Sasha Antunes| Gerente | sasha@gmail.com |
-| Vitinho da Silva | Auxiliar de Impressão | vsilva@gmail.com |
+| Danilo Fernandes | Gerente | dfernandes@gmail.com |
+| Eduardo Sasha | Auxiliar de Impressão | esasha@gmail.com |
+| Rodrigo Dourado | Auxiliar Técnico | rdourado@gmail.com |
 	
 h3. ESCOPO DO PROJETO
 
-Este projeto visa o desenvolvimento de um sistema para o controle de defensivos utilizados em produtos agrícolas, visando a redução de perdas e a otimização das compras.
+Este projeto visa o desenvolvimento de um sistema para efetuar a impressão de documentos via ambiente Web. Pretende-se reduzir o fluxo do uso dos totens e otimizar o processo de impressão.
 
-Para a utilização do sistema será necessário efetuar uma carga de dados. 
+Os documentos poderão ser enviados a partir de qualquer dispositivo conectado a internet.
 
-A carga de dados terá informações dos clientes, produtos e defensivos. 
+Deverá ser criado um controle de acesso ao sistema, este deverá possuir um controle hierárquico de usuários. Os usuários podem ser administrativos ou clientes.
 
-Os registros inseridos a partir da carga de dados serão utilizados posteriormente para efetuar a criação de lotes.
+Os usuários administrativos terão acesso a área de gestão de impressão. Na gestão é possível controlar o estoque de insumos, fila de impressão, usuários e  impressoras.
 
-O sistema terá a possibilidade de efetuar os cadastros de forma manual, ou seja, caso um cliente, defensivo ou produto não esteja registrado no sistema, o mesmo poderá ser adicionado via formulário.
+Os clientes terão acesso a área de impressão, sendo possível enviar os documentos e acompanhar o extrato financeiro e de operações efetuadas. 
 
-O sistema deve ser apto a efetuar a criação de lotes, estes lotes serão criados no recebimento da carga.
 
-Ao criar um lote, o mesmo pode conter n produtos, não necessáriamente do mesmo produtor.
 
-Ao finalizar a criação de um lote, deverá ser gerado um QR Code que posteriormente será utilizado para efetuar a rastreabilidade dos produtos através do aplicativo de leitura.
 
-O Sistema deverá imprimir etiquetas com o QR Code. O número de etiquetas que deverá ser gerado, será de acordo com o número de produtos, pois cada produto terá sua etiqueta.
 
-O aplicativo de rastreabilidade deverá ter a opção de leitura do QR Code, ao efetuar a leitura será efetuada uma transação de busca no sistema de retaguarda, que vai retornar todos os produtos contidos no lote.
+O sistema vai ficar
 
-Este software será desenvolvido em camadas, no Frontend será utilizado AngularJS com tema AdminLTE 2, o front vai se comunicar através de Web Services RestFul com o Backend. 
-
-A camada de Backend será desenvolvida utilizando PHP e se comunicando com banco de dados PostgreSQL.
-
-O aplicativo será desenvolvido utilizando Ionic e o banco de dados SQlite. O aplicativo vai se comunicar através de Web Services com o sistema de retaguarda.
+O Sistema será online e terá controle de acesso de usuários.
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
