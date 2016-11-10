@@ -2,47 +2,28 @@ h1. Termo de Abertura
 
 h3. IDENTIFICAÇÃO DO PROJETO
 
-Nome do Projeto: Impressão Online
+Nome do Projeto: 
 
 h3. EQUIPE DO PROJETO
 
-Nome do aluno responsável: Kelvin Pereira Alves
-Integrantes: Kelvin Pereira Alves
-
+Nome do aluno responsável: 
+Integrantes: 
 
 h3. PARTES INTERESSADAS (STAKEHOLDERS)
 
 | Nome | Função | Email |
-| Danilo Fernandes | Gerente | dfernandes@gmail.com |
-| Eduardo Sasha | Auxiliar de Impressão | esasha@gmail.com |
-| Rodrigo Dourado | Auxiliar Técnico | rdourado@gmail.com |
 	
 h3. ESCOPO DO PROJETO
-
-Este projeto visa o desenvolvimento de um sistema para efetuar a impressão de documentos via ambiente Web. Pretende-se reduzir o fluxo do uso dos totens e otimizar o processo de impressão.
-
-Os documentos poderão ser enviados a partir de qualquer dispositivo conectado a internet.
-
-Deverá ser criado um controle de acesso ao sistema, este deverá possuir um controle hierárquico de usuários. Os usuários podem ser administrativos ou clientes.
-
-Os usuários administrativos terão acesso a área de gestão de impressão. Na gestão é possível controlar o estoque de insumos, fila de impressão, usuários e  impressoras.
-
-Os clientes terão acesso a área de impressão, sendo possível enviar os documentos para impressão, acompanhar o extrato financeiro e as operações efetuadas.
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
 Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendidos nesta proposta, podem-se citar os seguintes:
 
-•	Integração ou sincronização com sistema de ponto de venda utilizado.
-•	Integração ou sincronização com sistema de órgãos públicos.
+•	
 
 h3. OBJETIVOS DO PROJETO
 
-O principal objetivo deste projeto é o desenvolvimento de um novo software capaz de gerar relatórios que otimizem o processo de compras e reduza as perdas de produtos agrícolas.
-
 h3. JUSTIFICATIVAS DO PROJETO
-
-Este projeto foi iniciado devido ao excesso de perdas que vem ocorrendo de maneira recorrente no setor de hortifrúti.
 
 h3. PREMISSAS E RESTRIÇÕES
 
@@ -50,11 +31,7 @@ h4. Premissas
 
 Para o sucesso deste projeto, torna-se imprescindível os seguintes pontos:
 
-•	Disponibilidade de tempo para reuniões de análise de requisitos.
-•	Disponibilidade de um servidor na nuvem para ambiente de homologação do sistema.
-•	Para criação do ambiente de homologação é necessário que o usuário disponibilizado para a contratante possua acesso de administrador, utilizando conexão SSH e FTP, também é necessário a presença dos seguintes programas: Apache 2, PHP com versão superior a 5.3 e banco de dados MySQL.
-•	Disponibilidade de dispositivo móvel com sistema operacional Android para homologação do aplicativo, este deverá ficar com a contratante durante todo o período de desenvolvimento.
-•	Disponibilidade dos usuários internos e externos para efetuar testes e dar feedback dos programas para a equipe de desenvolvimento.
+•	
 
 h4. Restrições
 
@@ -85,8 +62,6 @@ Plano de Entregas e Marcos do Projeto
 
 Entrega/Marco	Descrição	Data
 Marco 1	Entrega de sistema Web para homologação		05/01/2017
-Marco 2	Entrega de aplicativo para homologação		01/02/2017
-Marco 3	Finalização do Projeto 						08/02/2017
 
 O detalhamento dos prazos para as fases, pacotes de trabalho, atividades e tarefas do projeto encontra-se no cronograma do projeto.
 
