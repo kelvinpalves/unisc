@@ -2,7 +2,7 @@ h1. Termo de Abertura
 
 h3. IDENTIFICAÇÃO DO PROJETO
 
-Nome do Projeto: 
+Nome do Projeto: Controle de Estacionamento Privado com OCR
 
 h3. EQUIPE DO PROJETO
 
