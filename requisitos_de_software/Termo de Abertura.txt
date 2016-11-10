@@ -7,7 +7,7 @@ Nome do Projeto: Impressão Online
 h3. EQUIPE DO PROJETO
 
 Nome do aluno responsável: Kelvin Pereira Alves
-Integrantes: Roberto V. Mees
+Integrantes: Kelvin Pereira Alves
 
 
 h3. PARTES INTERESSADAS (STAKEHOLDERS)
@@ -27,15 +27,7 @@ Deverá ser criado um controle de acesso ao sistema, este deverá possuir um con
 
 Os usuários administrativos terão acesso a área de gestão de impressão. Na gestão é possível controlar o estoque de insumos, fila de impressão, usuários e  impressoras.
 
-Os clientes terão acesso a área de impressão, sendo possível enviar os documentos e acompanhar o extrato financeiro e de operações efetuadas. 
-
-
-
-
-
-O sistema vai ficar
-
-O Sistema será online e terá controle de acesso de usuários.
+Os clientes terão acesso a área de impressão, sendo possível enviar os documentos para impressão, acompanhar o extrato financeiro e as operações efetuadas.
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
