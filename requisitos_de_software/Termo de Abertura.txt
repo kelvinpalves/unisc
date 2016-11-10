@@ -30,6 +30,41 @@ Serão disponibilizadas “x” vagas para vendas, dependendo do tamanho do cond
 
 A área de estacionamento com as vagas públicas, deve ter um controle para torná-lo rotativo. Não permitindo a permanência do mesmo veículo por mais de 6 horas no mesmo local.
 
+Para a área particular e residencial, deverá ser efetuado um cadastro no sistema. Este cadastro deve conter os dados sobre o veículo e o responsável pelo mesmo.
+
+Na entrada do estacionamento deverá possuir uma cancela eletrônica, que será içada apenas após efetuar o reconhecimento de uma placa registrada no sistema. 
+
+O reconhecimento da placa deverá ser efetuado automaticamente pelo sistema, utilizando um algoritmo de reconhecimento ótico de caracteres (OCR).
+
+Em casos do não reconhecimento da placa, deverá ser emitido um alerta ao terminal disponível ao porteiro do condomínio.
+
+Se for identificado que o veículo é um visitante, o sistema deverá emitir o número de vagas disponíveis na área pública, evitando o içamento da cancela em casos de ausência de locais livres.
+
+Em casos de veículos na área pública é necessário registrar os dados de quem vai receber a visita e do quem é visitante.
+
+Na saída dos veículos, caso o mesmo faça parte da área pública, o sistema deverá liberar a vaga automaticamente após disparar o OCR.
+
+Deverá ter um controle das aberturas de cancela, registrando o veículo, ação tomada 
+(Entrada/Saída) e data e hora.
+
+O sistema de retaguarda será desenvolvido em plataforma Web, sendo este divido em duas partes, Front-End e Back-End.
+
+O Front-End vai utilizar AngularJS para construção de interfaces e lógica de apresentação do sistema.
+
+O Back-End será desenvolvido em Java, utilizando a arquitetura de comunicação RESTFul.
+
+Será utilizado banco de dados relacional para o controle de veículos e vagas e banco NoSQL para histórico de entrada e saída.
+
+Será utilizado o PostgreSQL como banco de dados relacional e MongoDB como NoSQL.
+
+Deverá possuir uma câmera apontando para a placa dos veículos, está deverá processar a imagem e enviar a placa recortada para o servidor de retaguarda.
+
+Após o recebimento da imagem, o servidor de retaguarda deverá aplicar o OCR, e enviar ou não o sinal de abertura da cancela.
+
+O sistema deverá bloquear a abertura da cancela e emitir uma alerta ao porteiro nos casos onde o OCR retornar uma taxa baixa de acertabilidade.
+
+O sistema será implantando em uma rede local com uma alta taxa de comunicação dos dados.
+
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
 Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendidos nesta proposta, podem-se citar os seguintes:
