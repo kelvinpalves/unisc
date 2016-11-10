@@ -6,14 +6,29 @@ Nome do Projeto: Controle de Estacionamento Privado com OCR
 
 h3. EQUIPE DO PROJETO
 
-Nome do aluno responsável: 
-Integrantes: 
+Nome do aluno responsável: Kelvin Pereira Alves
+Integrantes: Kelvin Pereira Alves
 
 h3. PARTES INTERESSADAS (STAKEHOLDERS)
 
 | Nome | Função | Email |
+| Paula Sabrine Penna | Diretora Comercial | ppenna@ppark.com.br |
+| Goku Saiyajin | Gerente | goku@ppark.com.br |
+| Walter White | Porteiro | wwhite@ppark.com.br |
 	
 h3. ESCOPO DO PROJETO
+
+Este projeto visa o desenvolvimento de um sistema para efetuar o controle de estacionamento em condomínios residenciais.
+
+Cada condomínio possui três áreas de estacionamento. Uma área com vagas por residência, outra com vagas particulares e a última com vagas públicas.
+
+Todas as áreas possuem as vagas numeradas e setorizadas.
+
+Cada residência do condomínio receberá uma vaga de estacionamento, e está deverá ser recebida no ato da compra.
+
+Serão disponibilizadas “x” vagas para vendas, dependendo do tamanho do condomínio. Estas vagas passíveis de compra, encontram-se na área de vagas particular.
+
+A área de estacionamento com as vagas públicas, deve ter um controle para torná-lo rotativo. Não permitindo a permanência do mesmo veículo por mais de 6 horas no mesmo local.
 
 h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
