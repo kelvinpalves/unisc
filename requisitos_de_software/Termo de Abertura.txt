@@ -69,7 +69,8 @@ h3. EXCLUSÕES ESPECÍFICAS DO ESCOPO
 
 Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendidos nesta proposta, podem-se citar os seguintes:
 
-•	
+•	O desenvolvimento do software que será executado na câmera não será realizado pela empresa contratada e sim terceirizado.
+•	O desenvolvimento do OCR não será realizado pela empresa contratada e sim terceirizado.
 
 h3. OBJETIVOS DO PROJETO
 
