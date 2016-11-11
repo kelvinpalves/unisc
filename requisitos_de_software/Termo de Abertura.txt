@@ -78,17 +78,28 @@ O principal objetivo deste projeto é o desenvolvimento de um software capaz de 
 
 h3. JUSTIFICATIVAS DO PROJETO
 
+Atualmente o controle de estacionamento dos condomínios está sendo feito através de planilhas eletrônicas, o que dificulta no momento de recuperação dos dados.
+
+Para todo e qualquer veículo que entre nos condomínios, existe a necessidade do deslocamento do porteiro até a cancela.
+
+No momento da entrada do veículo, antes de abrir a cancela o porteiro deve anotar informações em uma ficha de papel. Posteriormente esta ficha é digitalizada para as planilhas eletrônicas. 
+
+Dificuldade para efetuar o controle de veículos estacionados no condomínio.
+
 h3. PREMISSAS E RESTRIÇÕES
 
 h4. Premissas
 
 Para o sucesso deste projeto, torna-se imprescindível os seguintes pontos:
 
-•	
+•	Disponibilidade de tempo para reuniões de análise de requisitos.
+•	Disponibilidade dos usuários internos e externos para efetuar testes e dar feedback dos programas para a equipe de desenvolvimento.
+•	Disponibilidade de uma cancela eletrônica para a realização dos testes.
+•	Disponibilidade das câmeras para efetuar o teste de reconhecimento ótico de caracteres.
 
 h4. Restrições
 
-•	Lista de restrições atribuídas pelo contexto
+•	OCR com taxa de acertabilidade abaixo do esperado.
 
 h3. FATORES CRÍTICOS DE SUCESSO DO PROJETO
 
@@ -105,16 +116,16 @@ Estes itens de riscos devem ser gerenciados durante o projeto:
 
 h3. PRAZO DO PROJETO
 
-O prazo estimado para este projeto, para o atendimento do escopo descrito nesta declaração, é de 90 dias.
+O prazo estimado para este projeto, para o atendimento do escopo descrito nesta declaração, é de 120 dias.
 
-Data Prevista para Início: 01/10/2016
+Data Prevista para Início: 11/11/2016
 
-Data Prevista para Término: 08/02/2017
+Data Prevista para Término: 08/05/2017
 
 Plano de Entregas e Marcos do Projeto
 
 Entrega/Marco	Descrição	Data
-Marco 1	Entrega de sistema Web para homologação		05/01/2017
+Marco 1	Entrega de sistema Web para homologação		05/03/2017
 
 O detalhamento dos prazos para as fases, pacotes de trabalho, atividades e tarefas do projeto encontra-se no cronograma do projeto.
 
