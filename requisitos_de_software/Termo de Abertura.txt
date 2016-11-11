@@ -26,7 +26,7 @@ Todas as áreas possuem as vagas numeradas e setorizadas.
 
 Cada residência do condomínio receberá uma vaga de estacionamento, e está deverá ser recebida no ato da compra.
 
-Serão disponibilizadas “x” vagas para vendas, dependendo do tamanho do condomínio. Estas vagas passíveis de compra, encontram-se na área de vagas particular.
+Serão disponibilizadas “x” vagas para venda. Estas vagas passíveis de compra, encontram-se na área de vagas particular.
 
 A área de estacionamento com as vagas públicas, deve ter um controle para torná-lo rotativo. Não permitindo a permanência do mesmo veículo por mais de 6 horas no mesmo local.
 
@@ -73,6 +73,8 @@ Dentre os tópicos discutidos durante as reuniões, os que não devem ser atendi
 •	O desenvolvimento do OCR não será realizado pela empresa contratada e sim terceirizado.
 
 h3. OBJETIVOS DO PROJETO
+
+O principal objetivo deste projeto é o desenvolvimento de um software capaz de controlar o estacionamento em condomínios residenciais.
 
 h3. JUSTIFICATIVAS DO PROJETO
 
