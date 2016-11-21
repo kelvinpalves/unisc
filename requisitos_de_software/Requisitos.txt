@@ -1,1 +1,30 @@
 Requisitos do Sistema
+
+1 Módulo de Vagas
+	1.1 O sistema deve conter uma área para realizar o cadastro de vagas do condomínio.
+		Cada vaga deve possuir as seguintes informações:
+			Número da Vaga (Único)
+			Tipo de Vaga 
+				Vaga Particular
+				Vaga Pública
+				Vaga Residencial
+2 Módulo de Residências
+	2.1 O sistema deve conter um cadastro de residências.
+		Cada residência do condomínio deve possuir as seguintes informações:
+			Número da Residência (Único)
+			Responsável
+			Veículos
+	2.2 O sistema deve conter o cadastro de responsáveis pelas residências e veículos.
+		Cada responsável deve conter as seguintes informações:
+			Nome
+			CPF
+	2.3 O sistema deve conter o cadastro de veículos da residência.
+		Cada veículo deverá conter as seguintes informações:
+			Placa
+			Marca/Modelo
+			Cor 
+			Tipo de Veículo
+			Responsável (2.2)
+			Vaga (1.1)
+	2.4 Não é possível vincular veículos a vagas destinadas ao estacionamento rotativo.
+3 Módulo de Controle
