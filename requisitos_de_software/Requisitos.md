@@ -14,9 +14,9 @@
 		Uma área é um local que contém n vagas.
 		Exemplo:
 			Condomínio X
-				* Área A (15 Vagas, 5 Particulares, 3 Residências e 7 Públicas)
-				* Área B (20 Vagas, ...)
-				* Área C (10 Vagas, ...)
+				Área A (15 Vagas, 5 Particulares, 3 Residências e 7 Públicas)
+				Área B (20 Vagas, ...)
+				Área C (10 Vagas, ...)
 	1.3	O sistema deverá possuir um mapeamento das vagas exibindo o status de cada uma.
 	1.4 O sistema deverá possuir totalizadores por área.
 		Os totais deverão ser agrupados por tipo de vaga e situação (Livre/Ocupada).
