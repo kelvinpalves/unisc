@@ -1,6 +1,6 @@
 Requisitos do Sistema
 
-1 Módulo de Vagas
+1 Módulo de Mapeamento de Vagas
 	1.1 O sistema deve conter uma área para realizar o cadastro de vagas do condomínio.
 		Cada vaga deve possuir as seguintes informações:
 			Número da Vaga (Único)
@@ -8,6 +8,18 @@ Requisitos do Sistema
 				Vaga Particular
 				Vaga Pública
 				Vaga Residencial
+			Latitude
+			Longitude
+	1.2 O sistema deverá conter um cadastro de áreas.
+		Uma área é um local que contém n vagas.
+		Exemplo:
+			Condomínio X
+				Área A (15 Vagas, 5 Particulares, 3 Residências e 7 Públicas)
+				Área B (20 Vagas, ...)
+				Área C (10 Vagas, ...)
+	1.3	O sistema deverá possuir um mapeamento das vagas exibindo o status de cada uma.
+	1.4 O sistema deverá possuir totalizadores por área.
+		Os totais deverão ser agrupados por tipo de vaga e situação (Livre/Ocupada).
 2 Módulo de Residências
 	2.1 O sistema deve conter um cadastro de residências.
 		Cada residência do condomínio deve possuir as seguintes informações:
@@ -27,4 +39,3 @@ Requisitos do Sistema
 			Responsável (2.2)
 			Vaga (1.1)
 	2.4 Não é possível vincular veículos a vagas destinadas ao estacionamento rotativo.
-3 Módulo de Controle
