@@ -1,0 +1,92 @@
+h1. Lista de Requisitos
+
+h3. Requisitos não funcionais
+
+# Preencha com requisitos não funcionais
+
+h3. Glossário
+
+# Área
+# Setor
+# Vaga Particular
+# Vaga Pública
+# Vaga Residencial
+
+h3. C01 - Módulo de Mapeamento de Vagas
+
+# O sistema deve conter uma área para realizar o cadastro de vagas do condomínio.
+Cada vaga deve possuir as seguintes informações:
+•	Número da Vaga (Único)
+•	Tipo de Vaga (Particular, Pública, Residencial)
+•	Latitude
+•	Longitude
+# O sistema deverá conter um cadastro de áreas.
+Uma área é um local que contém n vagas.
+Exemplo:
+Condomínio X
+•	Área A (15 Vagas, 5 Particulares, 3 Residências e 7 Públicas)
+•	Área B (20 Vagas, ...)
+•	Área C (10 Vagas, ...)
+# O sistema deverá possuir um mapeamento das vagas exibindo o status de cada uma.
+# O sistema deverá possuir totalizadores por área.
+Os totais deverão ser agrupados por tipo de vaga e situação (Livre/Ocupada).
+
+h3. C02 - Módulo de Residências
+
+# O sistema deve conter um cadastro de residências.
+Cada residência do condomínio deve possuir as seguintes informações:
+•	Número da Residência (Único)
+•	Responsável
+•	Veículos
+
+# O sistema deve conter o cadastro de responsáveis pelas residências e veículos.
+Cada responsável deve conter as seguintes informações:
+•	Nome
+•	CPF
+
+# O sistema deve conter o cadastro de veículos da residência.
+Cada veículo deverá conter as seguintes informações:
+•	Placa
+•	Marca/Modelo
+•	Cor 
+•	Tipo de Veículo
+•	Responsável (2.2)
+•	Vaga (1.1)
+
+# Não é possível vincular veículos a vagas destinadas ao estacionamento rotativo.
+
+h3. CO3 - Controle de Estacionamento 
+
+# Na entrada de veículos, deverá ser efetuada a leitura da placa para liberar o acesso.
+
+# Caso o acesso seja liberado, deverá registrar no histórico os seguintes dados:
+•	Vaga
+•	Veículo 
+•	Data e Hora
+•	Tipo de Operação (Entrada de Veículo)
+
+# Caso o acesso seja negado, o sistema deve verificar se existem vagas disponíveis para área de acesso solicitada pelo motorista.
+
+# Caso ainda restam vagas disponíveis no setor público da área solicitada, o veículo deverá ser registrado como visitante e os dados informados no histórico.
+Os dados necessários são:
+•	Vaga 
+•	Veículo 
+•	Data e Hora 
+•	Tipo de Operação (Entrada de Veículo).
+
+# Caso o tipo de vaga a ser ocupado for público, deverá iniciar um timer de utilização da vaga, permitindo por um número x de minutos.
+
+# Caso um veículo exceda o tempo máximo estipulado, o responsável deverá ser contactado para regularizar a situação.
+
+# Deverá ser cobrada taxa de estacionamento para veículos que excederem o tempo máximo estipulado.
+
+# Na saída de veículos deverá ser efetuado o registro da ação no histórico.
+Os dados necessários são:
+•	Vaga 
+•	Veículo 
+•	Data e Hora 
+•	Tipo de Operação (Entrada de Veículo).
+
+# Não deverá ser liberado a saída de veículos que possuem tarifas não regularizadas.
+
+# O pagamento das tarifas poderá ser efetuado através de dinheiro ou cartão de crédito/débito.
