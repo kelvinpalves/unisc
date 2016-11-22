@@ -6,11 +6,11 @@ h3. Requisitos não funcionais
 
 h3. Glossário
 
-# Área
-# Setor
-# Vaga Particular
-# Vaga Pública
-# Vaga Residencial
+# Área - Conjunto de setores que contém diversas vagas.
+# Setor - Conjunto de vagas.
+# Vaga Particular - Vaga passível de compra.
+# Vaga Pública - Vaga rotativa, utilizada por visitantes.
+# Vaga Residencial - Vaga recebida para cada residência do condomínio.
 
 h3. C01 - Módulo de Mapeamento de Vagas
 
