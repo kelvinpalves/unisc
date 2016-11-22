@@ -2,7 +2,11 @@ h1. Lista de Requisitos
 
 h3. Requisitos não funcionais
 
-# Preencha com requisitos não funcionais
+# O sistema deve abrir a cancela em no máximo 5 segundos após a chegada do veículo.
+# O sistema deve ficar disponível pelo menos 99.9% do tempo.
+# Apenas usuários com permissão de auditor poderão ver o extrato de entrada e saída de veículos.
+# O sistema deve ser totalmente responsivo e se ajustar adequadamento ao dispositivo que o acessa.
+# O sistema deve funcionar offline.
 
 h3. Glossário
 
