@@ -5,24 +5,37 @@ Equipamento - Classe para definir os equipamentos utilizados pelo sistema. (Ex.:
 
 Propriedades
 
-ip 					- String 				- Endereço IP para acessar o equipamento.
-tipoEquipamento 	- TipoEquipamento 		- Tipo do equipamento. (Ex.: Câmera, Cancela Eletrônica)
-situacaoEquipamento - SituacaoEquipamento 	- Situação atual do equipamento. (Ex.: Operando, Em Manutenção)
+ip - String - Endereço IP para acessar o equipamento.
+tipoEquipamento	- TipoEquipamento - Tipo do equipamento. (Ex.: Câmera, Cancela Eletrônica)
+situacaoEquipamento - SituacaoEquipamento - Situação atual do equipamento. (Ex.: Operando, Em Manutenção)
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
+TipoEquipamento - Tipo de Equipamento. (Ex.: Câmera, Cancela Eletrônica)
+
 Propriedades
+
+descricao - String - Descrição do tipo de equipamento.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
+SituacaoEquipamento - Situação do equipamento. (Ex.: Operando, Em Manutenção)
+
 Propriedades
+
+descricao - String - Descrição da situação do equipamento.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
+Configuracao - Tabela com configurações do sistema.
+
 Propriedades
+
+tempoMaximoRotativo - Double - Tempo máximo permitido para permanência do veículo na vaga rotativa.
+valorHora - Double - Valor que deverá ser cobrado por hora.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
