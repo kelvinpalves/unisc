@@ -12,7 +12,7 @@ situacaoEquipamento - SituacaoEquipamento - Situação atual do equipamento. (Ex
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-TipoEquipamento - Tipo de Equipamento. (Ex.: Câmera, Cancela Eletrônica)
+TipoEquipamento - Classe para definir o Tipo de Equipamento. (Ex.: Câmera, Cancela Eletrônica)
 
 Propriedades
 
@@ -21,7 +21,7 @@ descricao - String - Descrição do tipo de equipamento.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-SituacaoEquipamento - Situação do equipamento. (Ex.: Operando, Em Manutenção)
+SituacaoEquipamento - Classe para definir a Situação do equipamento. (Ex.: Operando, Em Manutenção)
 
 Propriedades
 
@@ -30,7 +30,7 @@ descricao - String - Descrição da situação do equipamento.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-Configuracao - Tabela com configurações do sistema.
+Configuracao - Classe com configurações do sistema.
 
 Propriedades
 
@@ -40,18 +40,90 @@ valorHora - Double - Valor que deverá ser cobrado por hora.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
+SituacaoVaga - Classe com a situação da vaga. (Ex.: Bloqueada, Livre, Ocupada)
+
 Propriedades
+
+descricao - String - Descrição da situação da vaga.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoVaga - Classe com os tipos de vaga do sistema. (Ex.: Vaga Pública, Vaga Particular, Vaga Residencial)
+
+Propriedades
+
+descricao - String - Descrição do tipo da vaga.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Setor - Classe para definir os setores do condomínio. (Ex.: Bloco A, Bloco B, Bloco C)
+
+Propriedades
+
+nome - String - Nome do setor.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Endereco - Classe para definir os endereços internos do condomínio.
+
+Propriedades
+
+rua - String - Rua do endereço.
+setor - Setor - Setor do endereço.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoPessoa - Classe para definir os tipos de pessoa. (Ex.: Morador, Visitante)
+
+Propriedades
+
+descricao - String - Descrição do tipo de pessoa.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Pessoa - Classe para definir as pessoas que serão utilizadas no sistema.
+
+Propriedades
+
+nome - String - Nome da pessoa.
+cpf - String - CPF da pessoa.
+email - String  - Email que será utilizado para contato com a pessoa.
+telefone - String - Telefone da pessoa.
+tipoPessoa - TipoPessoa - Tipo da pessoa.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Residencia - Classe para definir as residências do condomínio. 
+
+Propriedades
+
+numero - int - Número da Residencia.
+responsavel - Pessoa - Pessoa responsável pela residência.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Vaga - Classe para definir as vagas do condomínio.
+
+Propriedades
+
+numero - int - Número da residência.
+residencia - Residencia - Residência proprietária da vaga.
+situacaoVaga - SituacaoVaga - Situação atual da vaga.
+tipoVaga - TipoVaga - Tipo da vaga.
+endereco - Endereco - Localização da vaga no condomínio.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
 Propriedades
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
 
-Propriedades
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
-
 
