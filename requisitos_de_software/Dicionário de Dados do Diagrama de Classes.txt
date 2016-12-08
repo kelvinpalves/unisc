@@ -67,6 +67,8 @@ Pagamento - Classe para registrar o extrato de pagamentos efetuados no sistema.
 Propriedades
 
 veiculoIrregular - VeiculoIrregular - Irregularidade que foi efetuado o pagamento.
+tsPagamento - Date - Data e Hora do Pagamento.
+tipoPagamento - TipoPagamento - Tipo do Pagamento.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
