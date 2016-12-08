@@ -1,3 +1,31 @@
+Classe 
+
+Configuracao - Classe com configurações do sistema.
+
+Propriedades
+
+tempoMaximoRotativo - Double - Tempo máximo permitido para permanência do veículo na vaga rotativa.
+valorHora - Double - Valor que deverá ser cobrado por hora.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+CorVeiculo - Classe para definir a cor do veículo. (Ex.: Preto, Branco)
+
+Propriedades
+
+descricao - String - Nome da cor.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+Endereco - Classe para definir os endereços internos do condomínio.
+
+Propriedades
+
+rua - String - Rua do endereço.
+setor - Setor - Setor do endereço.
+--------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe
 
@@ -12,76 +40,33 @@ situacaoEquipamento - SituacaoEquipamento - Situação atual do equipamento. (Ex
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-TipoEquipamento - Classe para definir o Tipo de Equipamento. (Ex.: Câmera, Cancela Eletrônica)
+HistoricoRotativo - Classe para definir os históricos de entrada e saída.
 
 Propriedades
 
-descricao - String - Descrição do tipo de equipamento.
+tsRegistro - Date - Data e hora da entrada do veículo.
+tipoOperacao - TipoOperacao - Tipo de operação efetuada.
+veiculo - Veiculo - Veículo que efetuou a operação.
+usuario - Usuario - Monitor responsável na hora da operação.
+vaga - Vaga - Vaga que está sendo operada.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-SituacaoEquipamento - Classe para definir a Situação do equipamento. (Ex.: Operando, Em Manutenção)
+MarcaVeiculo - Classe para definir as marcas do veículo. (Ex.: Renault, Ford)
 
 Propriedades
 
-descricao - String - Descrição da situação do equipamento.
+descricao - String - Nome da marca do veículo.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-Configuracao - Classe com configurações do sistema.
+Pagamento - Classe para registrar o extrato de pagamentos efetuados no sistema.
 
 Propriedades
 
-tempoMaximoRotativo - Double - Tempo máximo permitido para permanência do veículo na vaga rotativa.
-valorHora - Double - Valor que deverá ser cobrado por hora.
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
-
-SituacaoVaga - Classe com a situação da vaga. (Ex.: Bloqueada, Livre, Ocupada)
-
-Propriedades
-
-descricao - String - Descrição da situação da vaga.
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
-
-TipoVaga - Classe com os tipos de vaga do sistema. (Ex.: Vaga Pública, Vaga Particular, Vaga Residencial)
-
-Propriedades
-
-descricao - String - Descrição do tipo da vaga.
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
-
-Setor - Classe para definir os setores do condomínio. (Ex.: Bloco A, Bloco B, Bloco C)
-
-Propriedades
-
-nome - String - Nome do setor.
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
-
-Endereco - Classe para definir os endereços internos do condomínio.
-
-Propriedades
-
-rua - String - Rua do endereço.
-setor - Setor - Setor do endereço.
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
-
-TipoPessoa - Classe para definir os tipos de pessoa. (Ex.: Morador, Visitante)
-
-Propriedades
-
-descricao - String - Descrição do tipo de pessoa.
+veiculoIrregular - VeiculoIrregular - Irregularidade que foi efetuado o pagamento.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
@@ -109,15 +94,92 @@ responsavel - Pessoa - Pessoa responsável pela residência.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-Vaga - Classe para definir as vagas do condomínio.
+Setor - Classe para definir os setores do condomínio. (Ex.: Bloco A, Bloco B, Bloco C)
 
 Propriedades
 
-numero - int - Número da residência.
-residencia - Residencia - Residência proprietária da vaga.
-situacaoVaga - SituacaoVaga - Situação atual da vaga.
-tipoVaga - TipoVaga - Tipo da vaga.
-endereco - Endereco - Localização da vaga no condomínio.
+nome - String - Nome do setor.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+SituacaoEquipamento - Classe para definir a Situação do equipamento. (Ex.: Operando, Em Manutenção)
+
+Propriedades
+
+descricao - String - Descrição da situação do equipamento.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+SituacaoRotativo - Classe para definir a situação atual da irregularidade. (Ex.: Pendente, Pagamento Realizado)
+
+Propriedades
+
+descricao - String - Descrição da situação da irregularidade.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+SituacaoVaga - Classe com a situação da vaga. (Ex.: Bloqueada, Livre, Ocupada)
+
+Propriedades
+
+descricao - String - Descrição da situação da vaga.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoEquipamento - Classe para definir o Tipo de Equipamento. (Ex.: Câmera, Cancela Eletrônica)
+
+Propriedades
+
+descricao - String - Descrição do tipo de equipamento.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoOperacao - Classe para definir o tipo de operação do histórico. (Ex.: Entrada de Veículo, Saída de Veículo)
+
+Propriedades
+
+descricao - String - Descrição do tipo de operação.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoPagamento - Classe para definir os tipos de pagamento. (Ex.: Cartão de Crédito, Dinheiro)
+
+Propriedades
+
+descricao - String - Descrição do tipo de pagamento.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoPessoa - Classe para definir os tipos de pessoa. (Ex.: Morador, Visitante)
+
+Propriedades
+
+descricao - String - Descrição do tipo de pessoa.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoUsuario - Classe para definir os tipos de usuário do sistema. (Ex.: Administrador, Monitor)
+
+Propriedades
+
+descricao - String - Descrição do tipo de usuário.
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Classe 
+
+TipoVaga - Classe com os tipos de vaga do sistema. (Ex.: Vaga Pública, Vaga Particular, Vaga Residencial)
+
+Propriedades
+
+descricao - String - Descrição do tipo da vaga.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
@@ -131,20 +193,28 @@ descricao - String - Descrição do tipo de veículo.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-CorVeiculo - Classe para definir a cor do veículo. (Ex.: Preto, Branco)
+Usuario - Classe para definir os usuários do sistema.
 
 Propriedades
 
-descricao - String - Nome da cor.
+nome - String - Nome do usuário.
+email - String - Email de cadastro do usuário. 
+login - String - Login de acesso ao sistema.
+senha - String  - Senha de acesso ao sistema.
+tipoUsuario - TipoUsuario - Tipo do usuário no sistema.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-MarcaVeiculo - Classe para definir as marcas do veículo. (Ex.: Renault, Ford)
+Vaga - Classe para definir as vagas do condomínio.
 
 Propriedades
 
-descricao - String - Nome da marca do veículo.
+numero - int - Número da residência.
+residencia - Residencia - Residência proprietária da vaga.
+situacaoVaga - SituacaoVaga - Situação atual da vaga.
+tipoVaga - TipoVaga - Tipo da vaga.
+endereco - Endereco - Localização da vaga no condomínio.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
@@ -162,20 +232,13 @@ responsavel - Pessoa - Pessoa responsável pelo veículo.
 --------------------------------------------------------------------------------------------------------------
 Classe 
 
-Propriedades
-
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-Classe 
+VeiculoIrregular - Classe para definir os veículos irregulares em relação as operações efetuadas.
 
 Propriedades
 
+valor - Double - Valor da irregularidade.
+tempo - Double - Tempo em minutos que foi excedido do limite permitido.
+historicoRotativo - HistoricoRotativo - Operação que registrou a irregularidade.
+situacaoRotativo - SituacaoRotativo - Situação atual da irregularidade.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
-Classe 
-
-Propriedades
-
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
-
