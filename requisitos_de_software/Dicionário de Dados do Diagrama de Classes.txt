@@ -92,6 +92,7 @@ Propriedades
 
 numero - int - Número da Residencia.
 responsavel - Pessoa - Pessoa responsável pela residência.
+endereco - Endereco - Endereço da residência.
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 Classe 
